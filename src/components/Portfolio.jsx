@@ -4,7 +4,7 @@ export const Portfolio = () => {
   return (
     <>
         
-        <h1 style={{display: 'flex', justifyContent: 'center'}}>My Skills</h1>
+        <h1 style={{display: 'flex', justifyContent: 'center',marginTop: '20px'}}>My Skills</h1>
          
          <div style={{backgroundColor: '#444444',padding: '15px 0px 5px 0px'}}>
             <div className='skills-outer-container'>
