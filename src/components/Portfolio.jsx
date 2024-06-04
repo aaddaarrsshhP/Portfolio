@@ -5,81 +5,112 @@ export const Portfolio = () => {
     <>
         
         <h1 style={{display: 'flex', justifyContent: 'center'}}>My Skills</h1>
-         <div style={{backgroundColor: '#353535',paddingTop: '1rem' ,paddingBottom: '2.5rem'}}> 
-          <div style={{display: 'flex',justifyContent: 'center',columnGap: '2rem',marginTop: '3rem',flexWrap: 'wrap'}}>
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/pngwing.com.png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>C</h5>
-            </div>
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/vecteezy_3d-c-programming-language-logo_12697300.png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>C++</h5>
-            </div>
-
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/vecteezy_stylized-3d-html-logo-design_12697299.png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>Html</h5>
-            </div>
-
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/vecteezy_vista-lateral-del-icono-css-3d-estilizado_11665094.png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>Css</h5>
-            </div>
-          </div>
-
-          <div style={{display: 'flex',justifyContent: 'center',columnGap: '2rem',marginTop: '3rem'}}>
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/vecteezy_javascript-logo-png-javascript-icon-transparent-png_27127463.png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>Javascript</h5>
-            </div>
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/pngwing.com (1).png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>React</h5>
-            </div>
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/pngwing.com (2).png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>Redux</h5>
-            </div>
-          </div>
-
-          <div style={{display: 'flex',justifyContent: 'center',columnGap: '2rem',marginTop: '3rem'}}>
-
-            <div id='skill' style={{width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/pngwing.com (4).png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>MUI</h5>
-              
+         
+         <div style={{backgroundColor: '#444444',padding: '15px 0px 5px 0px'}}>
+            <div className='skills-outer-container'>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/pngwing.com.png'/>
+                  </div>
+                  <h3>C</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/vecteezy_3d-c-programming-language-logo_12697300.png'/>
+                  </div>
+                  <h3>C++</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/pngwing.com (3).png'/>
+                  </div>
+                  <h3>Git</h3>
+               </div>
             </div>
 
-            <div id='skill' style={{ width: '6vw',paddingTop: '1.5rem',borderRadius:'1rem',height: '12vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/pngwing.com (3).png'/></div>
-              <h5 style={{marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>Git</h5>
+            <div className='skills-outer-container'>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/vecteezy_stylized-3d-html-logo-design_12697299.png'/>
+                  </div>
+                  <h3>Html</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/vecteezy_vista-lateral-del-icono-css-3d-estilizado_11665094.png'/>
+                  </div>
+                  <h3>Css</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/vecteezy_javascript-logo-png-javascript-icon-transparent-png_27127463.png'/>
+                  </div>
+                  <h3>Javascript</h3>
+               </div>
             </div>
 
-          </div>
+            <div className='skills-outer-container'>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/pngwing.com (1).png'/>
+                  </div>
+                  <h3>React</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/pngwing.com (2).png'/>
+                  </div>
+                  <h3>Redux</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/pngwing.com (4).png'/>
+                  </div>
+                  <h3>Material UI</h3>
+               </div>
+            </div>
 
-         <div style={{display: 'flex',justifyContent: 'center',columnGap: '2rem',marginTop: '3rem'}}>
-            <div id='skillresponsive' style={{paddingTop: '1.5rem',width: '6vw',borderRadius:'1rem',height: '13vh',backgroundColor: '	#141414',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
-              <div style={{height: '9vh',width: '4vw'}}><img id='logo' src='/pngwing.com (5).png'/></div>
-              <h5  style={{padding: '0 0.2rem 0 0.2rem',marginTop: '0.7rem',display: 'flex',justifyContent: 'center'}}>Responsive</h5>
-              <h5 style={{marginTop: '-1.5rem',display: 'flex',justifyContent: 'center'}}>Design</h5>
+            <div className='skills-outer-container'>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='https://www.mysql.com/common/logos/logo-mysql-170x115.png'/>
+                  </div>
+                  <h3>node js</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/mongo.png'/>
+                  </div>
+                  <h3>Mongo DB</h3>
+               </div>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/nodejs.png'/>
+                  </div>
+                  <h3>MySQL</h3>
+               </div>
             </div>
          </div>
-        </div>
+
+
+
+
+
          <h1 style={{marginTop: '5rem',display: 'flex',justifyContent: 'center'}}>Projects</h1>
          <div  style={{display: 'flex',flexDirection: 'column',justifyContent:'center',alignItems: 'center',columnGap: '4rem',marginTop: '4rem',flexWrap: 'wrap',rowGap: '4rem'}}>
             <div className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
-              <div style={{width: '47vw',height: '50vh' ,border: 'solid 3px grey'}}><video controls loop autoPlay id='portImg' src='/dis.webm' type='video/webm'></video></div>
+              <div className='project-img-container'><video controls loop autoPlay id='portImg' src='/dis.webm' type='video/webm'></video></div>
               <p>It is the exact replica of Disney OTT platform, created using React.</p>
               <a href='https://github.com/aaddaarrsshhP/DisneyClone.git' className='click-here'>Click here to visit repository..</a>
               
             </div>
             <div className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
-            <div style={{width: '47vw',height: '50vh' ,border: 'solid 3px grey'}}><video controls loop autoPlay id='portImg' src='/marv.webm' type='video/webm'></video></div>
+            <div className='project-img-container'><video controls loop autoPlay id='portImg' src='/marv.webm' type='video/webm'></video></div>
               <p>This is Marvel's superhero website.</p> 
               <a href='https://github.com/aaddaarrsshhP/Marvel.git' style={{marginTop: '1.2rem'}} className='click-here'>Click here to visit repository..</a>
             </div>
             <div  className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
-              <div style={{width: '47vw',height: '50vh' ,border: 'solid 3px grey'}}><img id='portImg' src='/portfolio.png'/></div>
+              <div className='project-img-container'><img id='portImg' src='/portfolio.png'/></div>
               <p>Your are currently on the website itself.</p>
              
             </div>
@@ -103,7 +134,7 @@ export const Portfolio = () => {
            usability.
          </p> 
         <div style={{display: 'flex',justifyContent: 'center',paddingTop: '40px'}}>        
-         <div style={{width: '25vw',height: '25vh',border: 'solid 3px white'}}>
+         <div className='certificate-container'>
            <img id='portImg' src='/certificate.png'/>
          </div>
          </div>  

@@ -59,6 +59,10 @@ body{
 
 }
 
+#iam{
+    margin-right: 4px;
+}
+
 #about{
     min-height: 70vh;
 }
@@ -75,70 +79,50 @@ body{
 }
 
 #about-name-pic{
-    height: 50vh;
+    min-height: 50vh;
     
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     column-gap: 17rem;
+    row-gap: 3rem;
 
 }
 
-#about-name{
-    
-    min-width: 30vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-right: 2rem;
+
+
+.about-name{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
-#about-pic{
-    
-     height: 50vh;
-    
+.about-name > h2 + h2{
+    margin-top: -10px;
 }
 
-#pic{
-    
+.about-name > h2 >span{
+    color: yellow;
+}
+
+.about-pic{
+    width: 280px;
+    height: 230px;
+}
+
+.about-pic > img{
     width: 100%;
     height: 100%;
-    
 }
 
-@media only screen and (max-width: 1130px){
 
-   #about-name-pic{
-     row-gap: 2rem;
-     padding-bottom: 9rem;
-    padding-left: 5rem;
-    
-   }
-
-   #skill{
-
-    min-width: 12vw;
-   }
-
-   #yellowline{
-    
-    padding-left: 1.5rem;
-    
-   }
-
-
-   #skillresponsive{
-    min-width: 12vw;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-   }
-
-   #portfolio{
-    padding-left: 2rem;
-    padding-right: 2rem;
-   }
-
+#yellowline{
+    width: 290px;
+    height: 0.5px;
+    border: solid 1px yellow;
 }
 
 
@@ -162,4 +146,103 @@ body{
 
 .project-container:hover{
     transform: scale(1.1,1.1);
+}
+
+.project-img-container{
+    width: 40vw;
+    height: 50vh; 
+    border: solid 3px grey;
+}
+
+.certificate-container{
+    width: 25vw;
+    height: 25vh;
+    border: solid 3px white;
+}
+
+.skills-outer-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+    column-gap: 4rem;
+    margin-bottom: 20px;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 5px 5px 0px 5px;
+    border-radius: 9px;
+   
+}
+
+.skills-image{
+
+    width: 100px;
+    height: 70px;
+}
+
+.skills-image > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 360px){
+
+    #about-name-pic{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+        padding-bottom: 9rem;
+       
+       
+      }
+
+      #about-name{
+    
+        min-width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding-right: 40rem;
+    }
+
+      .certificate-container{
+        width: 50vw;
+        height: 15vh;
+        border: solid 3px white;
+    }
+
+      .project-img-container{
+        width: 70vw;
+        height: 20vh; 
+        border: solid 3px grey;
+    }
+
+
+   
+
+
+   #about-description{
+    margin-top: -30px;
+   }
+
+   
+
+   .skill-later{
+    flex-direction: column;
+   }
+
+   #about,#portfolio,#contact{
+
+   }
 }
