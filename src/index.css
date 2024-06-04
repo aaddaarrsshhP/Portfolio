@@ -207,9 +207,7 @@ body{
        
       }
 
-    .skill-top{
-        margin-top: 20px;
-    }
+    
 
       .pp{
         padding: 0 5px 0 5px;
@@ -224,7 +222,7 @@ body{
       }
 
       #portfolio{
-        padding-top: 60px;
+        padding-top: 100px;
       }
 
       #contact{
