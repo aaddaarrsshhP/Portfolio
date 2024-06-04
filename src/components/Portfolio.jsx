@@ -6,25 +6,25 @@ export const Portfolio = () => {
         
         <h1 className="skill-top" style={{display: 'flex', justifyContent: 'center',marginTop: '20px'}}>My Skills</h1>
          
-         <div style={{backgroundColor: '#444444',padding: '15px 0px 5px 0px'}}>
+         <div style={{padding: '15px 0px 5px 0px'}}>
             <div className='skills-outer-container'>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/pngwing.com.png'/>
                   </div>
-                  <h3>C</h3>
+                  <h4>C</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/vecteezy_3d-c-programming-language-logo_12697300.png'/>
                   </div>
-                  <h3>C++</h3>
+                  <h4>C++</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/pngwing.com (3).png'/>
                   </div>
-                  <h3>Git</h3>
+                  <h4>Git</h4>
                </div>
             </div>
 
@@ -33,19 +33,19 @@ export const Portfolio = () => {
                   <div className='skills-image'>
                     <img src='/vecteezy_stylized-3d-html-logo-design_12697299.png'/>
                   </div>
-                  <h3>Html</h3>
+                  <h4>Html</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/vecteezy_vista-lateral-del-icono-css-3d-estilizado_11665094.png'/>
                   </div>
-                  <h3>Css</h3>
+                  <h4>Css</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/vecteezy_javascript-logo-png-javascript-icon-transparent-png_27127463.png'/>
                   </div>
-                  <h3>Javascript</h3>
+                  <h4>JS</h4>
                </div>
             </div>
 
@@ -54,19 +54,19 @@ export const Portfolio = () => {
                   <div className='skills-image'>
                     <img src='/pngwing.com (1).png'/>
                   </div>
-                  <h3>React</h3>
+                  <h4>React</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/pngwing.com (2).png'/>
                   </div>
-                  <h3>Redux</h3>
+                  <h4>Redux</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/pngwing.com (4).png'/>
                   </div>
-                  <h3>Material UI</h3>
+                  <h4>MUI</h4>
                </div>
             </div>
 
@@ -75,19 +75,21 @@ export const Portfolio = () => {
                   <div className='skills-image'>
                     <img src='https://www.mysql.com/common/logos/logo-mysql-170x115.png'/>
                   </div>
-                  <h3>MySQL</h3>
+                  <h4>MySQL</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/mongo.png'/>
                   </div>
-                  <h3>Mongo DB</h3>
+                  <h4 id='mongo'>Mongo</h4>
+                  <h4>DB</h4>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
                     <img src='/nodejs.png'/>
                   </div>
-                  <h3>node js</h3>
+                  <h4 id='mongo'>node</h4>
+                  <h4>js</h4>
                </div>
             </div>
          </div>
