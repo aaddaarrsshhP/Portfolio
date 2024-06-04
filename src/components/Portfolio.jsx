@@ -114,7 +114,7 @@ export const Portfolio = () => {
             </div>
             <div  className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
               <div className='project-img-container'><img id='portImg' src='/portfolio.png'/></div>
-              <p>Your are currently on the website itself.</p>
+              <p>You are currently on the website itself.</p>
              
             </div>
 

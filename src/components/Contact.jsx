@@ -19,7 +19,7 @@ export const Contact = () => {
               <div style={{display: 'flex',justifyContent: 'center'}}>
                 <h3 style={{padding: '0rem 2rem 0rem 2rem',marginTop: '-0.8rem',backgroundColor: '#242424'}}>Contact ME</h3>
               </div>
-              <div style={{paddingTop: '2.5rem',display: 'flex',justifyContent:'center',alignItems:'center',
+              <div style={{paddingTop: '1.5rem',display: 'flex',justifyContent:'center',alignItems:'center',
               columnGap:'3rem',flexWrap: 'wrap',rowGap: '1rem'}}>
                   <div style={{display:'flex',alignItems:'center',columnGap:'0.2rem',backgroundColor: '#141414',
                 borderRadius: '11px',height:'7vh',padding: '0 2rem 0 2rem'}}>
@@ -32,7 +32,7 @@ export const Contact = () => {
                     <h4>+91 7024445960</h4>
                   </div>
               </div>
-              <div style={{display: 'flex',justifyContent: 'center',paddingTop: '2rem',paddingBottom: '3rem'}}>
+              <div style={{display: 'flex',justifyContent: 'center',paddingTop: '1rem',paddingBottom: '3rem'}}>
                 <div style={{display: 'flex',alignItems: 'center',backgroundColor: '#141414',
                   borderRadius: '11px',height:'7vh',padding: '0 2rem 0 2rem'}}>
                   <LocationOnIcon sx={{fontSize: '19px'}}/>
@@ -48,7 +48,7 @@ export const Contact = () => {
                 <LinkedInIcon fontSize='xs-small'/>
                 <WhatsAppIcon fontSize='xs-small'/>
             </div>
-            <div style={{paddingTop: '5rem',color:'rgb(255,215,0)'}}>
+            <div style={{paddingTop: '3rem',color:'rgb(255,215,0)'}}>
               <h4>"Thanks For Scrolling"</h4>
             </div>
           </div>
