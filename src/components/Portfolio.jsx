@@ -97,8 +97,9 @@ export const Portfolio = () => {
 
 
          <h1 style={{marginTop: '5rem',display: 'flex',justifyContent: 'center'}}>Projects</h1>
-         <div  style={{display: 'flex',flexDirection: 'column',justifyContent:'center',alignItems: 'center',columnGap: '4rem',marginTop: '4rem',flexWrap: 'wrap',rowGap: '4rem'}}>
+         <div  style={{display: 'flex',flexDirection: 'column',alignItems: 'center',columnGap: '4rem',marginTop: '4rem',flexWrap: 'wrap',rowGap: '4rem'}}>
             <div className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
+
               <div className='project-img-container'><video controls loop autoPlay id='portImg' src='/dis.webm' type='video/webm'></video></div>
               <p>It is the exact replica of Disney OTT platform, created using React.</p>
               <a href='https://github.com/aaddaarrsshhP/DisneyClone.git' className='click-here'>Click here to visit repository..</a>

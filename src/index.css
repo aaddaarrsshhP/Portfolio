@@ -205,6 +205,14 @@ body{
        
       }
 
+      #about,#portfolio,#container{
+        padding: 0 0 0 0;
+      }
+
+      #about{
+        padding-top: 5rem;
+      }
+
       #about-name{
     
         min-width: 30vw;
@@ -242,7 +250,5 @@ body{
     flex-direction: column;
    }
 
-   #about,#portfolio,#contact{
-
-   }
+   
 }
