@@ -75,7 +75,7 @@ export const Portfolio = () => {
                   <div className='skills-image'>
                     <img src='https://www.mysql.com/common/logos/logo-mysql-170x115.png'/>
                   </div>
-                  <h3>node js</h3>
+                  <h3>MySQL</h3>
                </div>
                <div className='skills-container'>
                   <div className='skills-image'>
@@ -87,7 +87,7 @@ export const Portfolio = () => {
                   <div className='skills-image'>
                     <img src='/nodejs.png'/>
                   </div>
-                  <h3>MySQL</h3>
+                  <h3>node js</h3>
                </div>
             </div>
          </div>

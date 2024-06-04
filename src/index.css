@@ -177,7 +177,7 @@ body{
     background-color: black;
     padding: 5px 5px 0px 5px;
     border-radius: 9px;
-   
+    
 }
 
 .skills-image{
@@ -209,11 +209,19 @@ body{
         padding: 0 5px 0 5px;
       }
 
-      #about,#portfolio,#container{
+      #about,#portfolio,#contact{
         padding: 10px 15px 10px 15px;
       }
 
       #about{
+        padding-top: 100px;
+      }
+
+      #portfolio{
+        padding-top: 60px;
+      }
+
+      #contact{
         padding-top: 100px;
       }
 
