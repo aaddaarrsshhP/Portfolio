@@ -205,13 +205,15 @@ body{
        
       }
 
-      #about,#portfolio,#container{
-        padding: 0 0 0 0;
+      .pp{
+        padding: 0 5px 0 5px;
       }
 
-      #about{
-        padding-top: 5rem;
+      #about,#portfolio,#container{
+        padding: 10px 15px 10px 15px;
       }
+
+      
 
       #about-name{
     
@@ -222,6 +224,11 @@ body{
         flex-wrap: wrap;
         align-items: flex-start;
         padding-right: 40rem;
+    }
+
+    .pro-detail{
+        width: 260px;
+        margin-bottom: 19px;
     }
 
       .certificate-container{

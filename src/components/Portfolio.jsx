@@ -101,14 +101,14 @@ export const Portfolio = () => {
             <div className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
 
               <div className='project-img-container'><video controls loop autoPlay id='portImg' src='/dis.webm' type='video/webm'></video></div>
-              <p>It is the exact replica of Disney OTT platform, created using React.</p>
+              <p className='pro-detail'>It is the exact replica of Disney OTT platform, created using React.</p>
               <a href='https://github.com/aaddaarrsshhP/DisneyClone.git' className='click-here'>Click here to visit repository..</a>
               
             </div>
             <div className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
             <div className='project-img-container'><video controls loop autoPlay id='portImg' src='/marv.webm' type='video/webm'></video></div>
-              <p>This is Marvel's superhero website.</p> 
-              <a href='https://github.com/aaddaarrsshhP/Marvel.git' style={{marginTop: '1.2rem'}} className='click-here'>Click here to visit repository..</a>
+              <p className='pro-detail'>This is Marvel's website providing information about superheroes and their respective comics.</p> 
+              <a href='https://github.com/aaddaarrsshhP/Marvel.git'  className='click-here'>Click here to visit repository..</a>
             </div>
             <div  className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
               <div className='project-img-container'><img id='portImg' src='/portfolio.png'/></div>

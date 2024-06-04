@@ -21,7 +21,7 @@ export const About = () => {
             <h1>About</h1>
             <div style={{display: 'flex'}}>
             <div id='yellowline'></div>
-            <p>Hello! I'm a passionate frontend developer with a keen eye for creating engaging and user-friendly web experiences.
+            <p className='pp'>Hello! I'm a passionate frontend developer with a keen eye for creating engaging and user-friendly web experiences.
             My expertise lies in turning design concepts into fully functional and visually stunning websites and web applications. I 
             specialize in HTML, CSS, JavaScript, React, and Redux, and I'm constantly exploring new technologies and frameworks to enhance my 
             skills and stay ahead of industry trends. 
