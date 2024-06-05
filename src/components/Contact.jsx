@@ -17,7 +17,7 @@ export const Contact = () => {
             <div style={{border:'solid 1px rgb(255,215,0)',borderLeftStyle: 'none',borderRightStyle: 'none',
           backgroundColor: '#353535'}}>
               <div style={{display: 'flex',justifyContent: 'center'}}>
-                <h3 style={{padding: '0rem 2rem 0rem 2rem',marginTop: '-0.8rem',backgroundColor: '#242424'}}>Contact ME</h3>
+                <h3 style={{padding: '0rem 1rem 0rem 1rem',marginTop: '-0.8rem',backgroundColor: '#242424'}}>Contact Me</h3>
               </div>
               <div style={{paddingTop: '1.5rem',display: 'flex',justifyContent:'center',alignItems:'center',
               columnGap:'3rem',flexWrap: 'wrap',rowGap: '1rem'}}>
@@ -42,13 +42,13 @@ export const Contact = () => {
             </div>
           <div style={{display: 'flex',alignItems: 'center',flexDirection: 'column'}}>
             <div style={{display:'flex',alignItems:'center',columnGap: '0.3rem',marginTop: '-0.5rem'
-            ,backgroundColor: '#242424',padding: '0rem 2rem 0rem 2rem'}}>
+            ,backgroundColor: '#242424',padding: '0rem 1rem 0rem 1rem'}}>
                 <FacebookIcon fontSize='xs-small'/>
                 <XIcon fontSize='xs-small'/>
                 <LinkedInIcon fontSize='xs-small'/>
                 <WhatsAppIcon fontSize='xs-small'/>
             </div>
-            <div style={{paddingTop: '3rem',color:'rgb(255,215,0)'}}>
+            <div style={{paddingTop: '1.5rem',color:'rgb(255,215,0)'}}>
               <h4>"Thanks For Scrolling"</h4>
             </div>
           </div>
