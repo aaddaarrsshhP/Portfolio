@@ -24,19 +24,19 @@ export const Contact = () => {
                   <div style={{display:'flex',alignItems:'center',columnGap:'0.2rem',backgroundColor: '#141414',
                 borderRadius: '11px',height:'7vh',padding: '0 2rem 0 2rem'}}>
                     <EmailIcon sx={{fontSize: '19px'}}/>
-                    <h4>aadarshpatel270@gmail.com</h4>
+                    <h4 style={{display: 'flex'}}>aadarshpatel270@gmail.com</h4>
                   </div>
                   <div style={{display:'flex',alignItems:'center',backgroundColor: '#141414',
                   borderRadius: '11px',height:'7vh',padding: '0 2rem 0 2rem'}}>
                     <PhoneIcon sx={{fontSize: '19px'}}/>
-                    <h4>+91 7024445960</h4>
+                    <h4 style={{display: 'flex'}} >+91 7024445960</h4>
                   </div>
               </div>
               <div style={{display: 'flex',justifyContent: 'center',paddingTop: '1rem',paddingBottom: '3rem'}}>
                 <div style={{display: 'flex',alignItems: 'center',backgroundColor: '#141414',
                   borderRadius: '11px',height:'7vh',padding: '0 2rem 0 2rem'}}>
                   <LocationOnIcon sx={{fontSize: '19px'}}/>
-                  <h4>Ujjain, Madhya Pradesh</h4>
+                  <h4 style={{display: 'flex'}} >Ujjain, Madhya Pradesh</h4>
                 </div>
               </div>
             </div>
