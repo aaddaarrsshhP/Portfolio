@@ -24,7 +24,7 @@ export const Contact = () => {
                   <div style={{display:'flex',alignItems:'center',columnGap:'0.2rem',backgroundColor: '#141414',
                 borderRadius: '11px',height:'7vh',padding: '0 2rem 0 2rem'}}>
                     <EmailIcon sx={{fontSize: '19px'}}/>
-                    <h4>aadarshp502@gmail.com</h4>
+                    <h4>aadarshpatel270@gmail.com</h4>
                   </div>
                   <div style={{display:'flex',alignItems:'center',backgroundColor: '#141414',
                   borderRadius: '11px',height:'7vh',padding: '0 2rem 0 2rem'}}>
