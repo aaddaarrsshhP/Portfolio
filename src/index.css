@@ -127,6 +127,9 @@ body{
     height: 100%;
 }
 
+#about-description{
+    margin-top: -30px;
+}
 
 #yellowline{
     width: 290px;
