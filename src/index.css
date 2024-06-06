@@ -84,7 +84,7 @@ body{
 #contact{
     padding: 7.5rem 0rem 0rem 0rem;
     background-color:#242424;
-    min-height: 60vh;
+    min-height: 10vh;
 }
 
 #about-name-pic{
@@ -164,8 +164,8 @@ body{
 }
 
 .certificate-container{
-    width: 25vw;
-    height: 25vh;
+    width: 400px;
+    height: 250px;
     border: solid 3px white;
 }
 
