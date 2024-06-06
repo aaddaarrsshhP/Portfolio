@@ -48,7 +48,7 @@ export const Contact = () => {
                 <LinkedInIcon fontSize='xs-small'/>
                 <WhatsAppIcon fontSize='xs-small'/>
             </div>
-            <div style={{paddingTop: '1.5rem',color:'rgb(255,215,0)'}}>
+            <div style={{paddingTop: '1.5rem',paddingBottom: '1.5rem',color:'rgb(255,215,0)'}}>
               <h4>"Thanks For Scrolling"</h4>
             </div>
           </div>
