@@ -4,7 +4,7 @@ export const Portfolio = () => {
   return (
     <>
         
-        <h1 className="skill-top" style={{display: 'flex', justifyContent: 'center',marginTop: '20px'}}>My Skills</h1>
+        <h1 className="skill-top" style={{display: 'flex', justifyContent: 'center'}}>My Skills</h1>
          
          <div style={{padding: '15px 0px 5px 0px'}}>
             <div className='skills-outer-container'>
@@ -98,8 +98,8 @@ export const Portfolio = () => {
 
 
 
-         <h1 style={{marginTop: '5rem',display: 'flex',justifyContent: 'center'}}>Projects</h1>
-         <div  style={{display: 'flex',flexDirection: 'column',alignItems: 'center',columnGap: '4rem',marginTop: '4rem',flexWrap: 'wrap',rowGap: '4rem'}}>
+         <h1 style={{marginTop: '85px',display: 'flex',justifyContent: 'center'}}>Projects</h1>
+         <div  style={{display: 'flex',flexDirection: 'column',alignItems: 'center',columnGap: '4rem',marginTop: '2.5rem',flexWrap: 'wrap',rowGap: '4rem'}}>
             <div className='project-container' style={{display: 'flex',flexDirection: 'column',alignItems: 'center'}}>
 
               <div className='project-img-container'><video controls loop autoPlay id='portImg' src='/dis.webm' type='video/webm'></video></div>
@@ -121,7 +121,7 @@ export const Portfolio = () => {
             
          </div>
 
-         <h1 style={{display: 'flex', justifyContent: 'center',marginTop: '90px',marginBottom: '40px'}}>Certification</h1>
+         <h1 style={{display: 'flex', justifyContent: 'center',marginTop: '90px',marginBottom: '30px'}}>Certification</h1>
          <p>
            I am thrilled to share with you my journey and accomplishments in the field of front-end development. One significant milestone in this journey is the completion of the META Front-End Development Certificate.
            Throughout this immersive program, provided by META, I have delved deep into the world of front-end technologies, mastering the essential skills necessary to 

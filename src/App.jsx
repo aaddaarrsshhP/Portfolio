@@ -25,6 +25,7 @@ function App() {
   return (
     <>
      <Header func={moveTo} about={about} portfolio={portfolio} contact={contact}/>
+    
      <div id='about' ref={about}>
         <About />
      </div>
@@ -34,6 +35,7 @@ function App() {
      <div id='contact' ref={contact}>
        <Contact />
      </div>
+     
      
     </>
   )
