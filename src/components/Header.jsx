@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 
 export const Header = ({func,about,portfolio,contact}) => {
 
-  const [abou,setAbou]=useState({color: 'white'}); 
+  const [abou,setAbou]=useState(null); 
   const [port,setPort]=useState(null);  
   const [cont,setCont]=useState(null);
 
