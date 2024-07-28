@@ -129,7 +129,7 @@ export const Portfolio = () => {
             
          </div>
 
-      <p style={{marginTop: '90px',marginBottom: '30px'}}> Managed a dynamic to-do list and several mini-projects as a front-end developer, focusing on creating responsive and user-friendly web interfaces. 
+      <p style={{marginTop: '70px',marginBottom: '30px'}}> Managed a dynamic to-do list and several mini-projects as a front-end developer, focusing on creating responsive and user-friendly web interfaces. 
         Projects included developing interactive components like sliders and modals, optimizing websites for speed and accessibility, 
         and integrating third-party APIs for enhanced functionality. 
         Demonstrated expertise in HTML, CSS, and JavaScript to deliver engaging, 
