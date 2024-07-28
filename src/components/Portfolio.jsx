@@ -92,6 +92,14 @@ export const Portfolio = () => {
                   <h4>js</h4>
                </div>
             </div>
+           <div className='skills-outer-container'>
+               <div className='skills-container'>
+                  <div className='skills-image'>
+                    <img src='/pngwing.com.png'/>
+                  </div>
+                  <h4>next js</h4>
+               </div>
+             </div>
          </div>
 
 
