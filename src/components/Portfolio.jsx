@@ -95,7 +95,7 @@ export const Portfolio = () => {
            <div className='skills-outer-container'>
                <div className='skills-container'>
                   <div className='skills-image'>
-                    <img src='/pngwing.com.png'/>
+                    <img src='https://seeklogo.com/vector-logo/394608/next-js'/>
                   </div>
                   <h4>next js</h4>
                </div>
